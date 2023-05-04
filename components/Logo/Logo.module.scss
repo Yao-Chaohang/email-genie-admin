@@ -1,0 +1,16 @@
+.logo {
+  position: relative;
+  padding: 50px;
+  h1 {
+    position: absolute;
+    top: 23px;
+    left: 13px;
+    color: #fff;
+    font-size: 42px;
+  }
+  .bg {
+    width: 200px;
+    height: 30px;
+    background-image: linear-gradient(to right, #139EBC, #A013BC);
+  }
+}

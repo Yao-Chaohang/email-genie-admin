@@ -1,0 +1,36 @@
+$btnWidth: 80%;
+$btnHeight: 50px;
+.new_project {
+  width: $btnWidth;
+  height: $btnHeight;
+  line-height: $btnHeight;
+  margin: 0 auto 20px auto;
+  border-radius: 10px;
+  background: #139EBC;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  &:hover {
+    background: #23a4c1;
+  }
+  &:active {
+    background: #139EBC;
+  }
+}
+
+.log_out {
+  padding: 0 20px;
+  width: $btnWidth;
+  height: 80px;
+  border-top: 1px solid beige;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 18px;
+}

@@ -1,0 +1,13 @@
+/* menu */
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-dark, :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-dark>.ant-menu {
+  background: #34363A;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-dark .ant-menu-item-selected, :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-dark>.ant-menu .ant-menu-item-selected {
+  background: #139EBC;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-inline .ant-menu-item, :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-vertical .ant-menu-item, :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-inline .ant-menu-submenu-title, :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-vertical .ant-menu-submenu-title {
+  width: 80%;
+  margin: 20px auto;
+  color: #fff;
+  font-size: 18px;
+}
