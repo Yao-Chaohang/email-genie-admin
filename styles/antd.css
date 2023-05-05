@@ -1,0 +1,17 @@
+/* menu */
+.ant-menu {
+  background: #34363A !important;
+}
+.ant-menu-item-selected {
+  background: #139EBC !important;
+}
+.ant-menu-item {
+  width: 80% !important;
+  margin: 20px auto !important;
+  color: #fff !important;
+  font-size: 18px !important;
+}
+
+.ant-menu-item:active {
+  background: #139EBC !important;
+}

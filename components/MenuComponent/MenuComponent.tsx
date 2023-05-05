@@ -41,6 +41,7 @@ export default function MenuComponent() {
     const menuStyle: any = {
         width: menuConfig.menuWidth,
         height: '100vh',
+        minHeight: '500px',
         background: menuConfig.background,
         position: 'relative'
     }
